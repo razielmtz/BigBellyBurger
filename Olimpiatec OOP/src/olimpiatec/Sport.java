@@ -46,9 +46,9 @@ public class Sport {
 
     @Override
     public String toString(){
-        String string="Sport"+this.sportName+"{\n";
+        String string="Sport: "+this.sportName+"{\n";
         for (Team team : teams) {
-            string+="\t"+team.toString()+"\n";
+            string+= "\t" + team.toString() + "\n";
         }
         string += "}";
         return string;

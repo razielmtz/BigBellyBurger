@@ -44,14 +44,14 @@ public class Team {
        return false;
     }
     public String getStudents(){
-        String list="\tStudents:[\n";
+        String list = "\tStudents:[\n";
         for (Student stu: this.students) {
-            list+="\t"+stu.getStudent()+"\n";
+            list+="\t" + stu.getStudent()+ "\n";
         }
         return list;
     }
     @Override
     public String toString(){
-        return "Team:"+this.getTeamName()+",\n"+this.getStudents()+"\t]";
+        return "Team:"+this.getTeamName()+"\n"+this.getStudents()+"\t]";
     }
 }

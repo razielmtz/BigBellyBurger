@@ -15,6 +15,5 @@ public class Olimpiatec {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    
-}
+    }
 }

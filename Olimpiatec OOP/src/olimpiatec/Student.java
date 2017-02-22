@@ -46,7 +46,7 @@ public class Student {
     }
 
     public String getStudent(){
-        return "Student: " + this.name + " " + this.lastName + ", id: " + this.id;
+        return "*" + this.name + " " + this.lastName + ", ID: " + this.id;
     }
     @Override
     public String toString() {
